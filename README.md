@@ -1,7 +1,10 @@
 # Learning Tailwind CSS
 ### Installing
-* npm install -D tailwindcss
-* npx tailwindcss init
+* terminal
+```
+npm install -D tailwindcss
+npx tailwindcss init
+```
 * tailwind.config.js
 ```
 module.exports = {
