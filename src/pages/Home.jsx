@@ -8,9 +8,12 @@ function Home() {
       <div className="links">
         <Link to={"/colors"}>
           <button>Colors</button>
-        </Link><br/>
+        </Link>
         <Link to={"/container-spacing"}>
           <button>Container & Spacing</button>
+        </Link>
+        <Link to={"/typography"}>
+          <button>Typography</button>
         </Link>
       </div>
     </>
