@@ -24,6 +24,9 @@ function Home() {
         <Link to={"/bg-shadows"}>
           <button>Background & Shadows</button>
         </Link>
+        <Link to={"/borders"}>
+          <button>Border & Border Radius</button>
+        </Link>
       </div>
     </>
   );
