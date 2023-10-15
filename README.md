@@ -25,6 +25,3 @@ module.exports = {
 ```
 * npm run start
 
-* Container And Spacing
-`padding margin and elements spacing`
-

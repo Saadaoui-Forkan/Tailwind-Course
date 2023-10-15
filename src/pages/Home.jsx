@@ -21,6 +21,9 @@ function Home() {
         <Link to={"/position"}>
           <button>Layout Position</button>
         </Link>
+        <Link to={"/bg-shadows"}>
+          <button>Background & Shadows</button>
+        </Link>
       </div>
     </>
   );

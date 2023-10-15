@@ -5,6 +5,7 @@ import ContainerAndSpacing from "./components/container-spacing/ConiainerAndSpac
 import Typography from "./components/typography";
 import Sinzing from './components/sizing'
 import Position from './components/layout-position'
+import BgShadows from './components/background & shadows'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/typography' element={<Typography/>} />
         <Route path='/sizing' element={<Sinzing/>}/>
         <Route path='/position' element={<Position/>}/>
+        <Route path='/bg-shadows' element={<BgShadows/>}/>
       </Routes>
     </BrowserRouter>
   );
