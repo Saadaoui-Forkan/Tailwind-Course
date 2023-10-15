@@ -7,6 +7,7 @@ import Sinzing from './components/sizing'
 import Position from './components/layout-position'
 import BgShadows from './components/background & shadows'
 import BorderBorderRadius from './components/borders & border-radius'
+import Filters from './components/filters'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/position' element={<Position/>}/>
         <Route path='/bg-shadows' element={<BgShadows/>}/>
         <Route path='/borders' element={<BorderBorderRadius/>}/>
+        <Route path='/filters' element={<Filters/>}/>
       </Routes>
     </BrowserRouter>
   );

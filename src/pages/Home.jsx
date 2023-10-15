@@ -27,6 +27,9 @@ function Home() {
         <Link to={"/borders"}>
           <button>Border & Border Radius</button>
         </Link>
+        <Link to={"/filters"}>
+          <button>Filters</button>
+        </Link>
       </div>
     </>
   );
