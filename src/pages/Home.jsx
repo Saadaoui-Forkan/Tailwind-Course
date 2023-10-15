@@ -15,6 +15,9 @@ function Home() {
         <Link to={"/typography"}>
           <button>Typography</button>
         </Link>
+        <Link to={"/sizing"}>
+          <button>Width & Height</button>
+        </Link>
       </div>
     </>
   );
