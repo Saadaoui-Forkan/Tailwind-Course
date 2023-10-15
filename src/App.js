@@ -8,6 +8,7 @@ import Position from './components/layout-position'
 import BgShadows from './components/background & shadows'
 import BorderBorderRadius from './components/borders & border-radius'
 import Filters from './components/filters'
+import Interactivity from './components/interactivity'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/bg-shadows' element={<BgShadows/>}/>
         <Route path='/borders' element={<BorderBorderRadius/>}/>
         <Route path='/filters' element={<Filters/>}/>
+        <Route path='/interactivity' element={<Interactivity/>}/>
       </Routes>
     </BrowserRouter>
   );

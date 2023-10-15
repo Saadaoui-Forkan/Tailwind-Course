@@ -30,6 +30,9 @@ function Home() {
         <Link to={"/filters"}>
           <button>Filters</button>
         </Link>
+        <Link to={"/interactivity"}>
+          <button>Interactivity</button>
+        </Link>
       </div>
     </>
   );
