@@ -1,42 +1,14 @@
-# Learning Tailwind CSS
-### Installing
-* terminal
+## Container And spacing
 ```
-npm install -D tailwindcss
-npx tailwindcss init
-```
-* tailwind.config.js
-```
-module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-* index.css
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-* npm run start
+    //Breakpoinsts for Container 
+        container	None	width: 100%;
+        sm (640px)	    max-width: 640px;
+        md (768px)	    max-width: 768px;
+        lg (1024px)	    max-width: 1024px;
+        xl (1280px)	    max-width: 1280px;
+        2xl (1536px)	  max-width: 1536px; 
 
-* Container And Spacing
-```
-<!-- Breakpoinsts for Container 
-    container	None	width: 100%;
-    sm (640px)	    max-width: 640px;
-    md (768px)	    max-width: 768px;
-    lg (1024px)	    max-width: 1024px;
-    xl (1280px)	    max-width: 1280px;
-    2xl (1536px)	  max-width: 1536px; 
--->
-
-<!-- Margin Values
+    // Margin Values
       m-0	margin: 0px;
       mx-0	margin-left: 0px;
       margin-right: 0px;
@@ -361,9 +333,8 @@ module.exports = {
       mr-auto	margin-right: auto;
       mb-auto	margin-bottom: auto;
       ml-auto	margin-left: auto; 
-    -->
 
-<!-- Padding Values
+    // Padding Values
       p-0	padding: 0px;
       px-0	padding-left: 0px;
       padding-right: 0px;
@@ -679,9 +650,9 @@ module.exports = {
       pr-96	padding-right: 24rem; /* 384px */
       pb-96	padding-bottom: 24rem; /* 384px */
       pl-96	padding-left: 24rem; /* 384px */
-    -->
+    
 
-<!-- Space Between X/Y
+    // Space Between X/Y
       space-x-0 > * + *	margin-left: 0px;
       space-y-0 > * + *	margin-top: 0px;
       space-x-0.5 > * + *	margin-left: 0.125rem; /* 2px */
@@ -754,6 +725,5 @@ module.exports = {
       space-y-px > * + *	margin-top: 1px;
       space-y-reverse > * + *	--tw-space-y-reverse: 1;
       space-x-reverse > * + *	--tw-space-x-reverse: 1;
-    -->
 
 ```
