@@ -33,6 +33,9 @@ function Home() {
         <Link to={"/interactivity"}>
           <button>Interactivity</button>
         </Link>
+        <Link to={"/breackpoints"}>
+          <button>Breackpoints</button>
+        </Link>
       </div>
     </>
   );

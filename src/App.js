@@ -9,6 +9,7 @@ import BgShadows from './components/background & shadows'
 import BorderBorderRadius from './components/borders & border-radius'
 import Filters from './components/filters'
 import Interactivity from './components/interactivity'
+import Breackpoints from './components/breackpoints'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/borders' element={<BorderBorderRadius/>}/>
         <Route path='/filters' element={<Filters/>}/>
         <Route path='/interactivity' element={<Interactivity/>}/>
+        <Route path='/breackpoints' element={<Breackpoints/>}/>
       </Routes>
     </BrowserRouter>
   );
