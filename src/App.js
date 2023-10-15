@@ -4,6 +4,7 @@ import Colors from "./components/Colors";
 import ContainerAndSpacing from "./components/container-spacing/ConiainerAndSpacing";
 import Typography from "./components/typography";
 import Sinzing from './components/sizing'
+import Position from './components/layout-position'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/container-spacing' element={<ContainerAndSpacing/>} />  
         <Route path='/typography' element={<Typography/>} />
         <Route path='/sizing' element={<Sinzing/>}/>
+        <Route path='/position' element={<Position/>}/>
       </Routes>
     </BrowserRouter>
   );

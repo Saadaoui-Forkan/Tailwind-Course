@@ -18,6 +18,9 @@ function Home() {
         <Link to={"/sizing"}>
           <button>Width & Height</button>
         </Link>
+        <Link to={"/position"}>
+          <button>Layout Position</button>
+        </Link>
       </div>
     </>
   );

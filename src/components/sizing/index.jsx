@@ -2,7 +2,7 @@ import React from 'react'
 
 function index() {
   return (
-    <>
+    <div className='container mx-auto'>
       {/* <!-- Width --> */}
       <div className="bg-black text-white my-2 w-0">w-0</div>
       <div className="bg-black text-white my-2 w-1">w-1</div>
@@ -84,7 +84,7 @@ function index() {
 
       {/* <!-- Full screen height --> */}
       <div className="h-screen bg-blue-300">Hello</div>
-    </>
+    </div>
   );
 }
 
