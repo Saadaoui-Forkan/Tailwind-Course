@@ -42,6 +42,9 @@ function Home() {
         <Link to={"/flexbox"}>
           <button className='bg-slate-600 text-white p-2'>Flexbox</button>
         </Link>
+        <Link to={"/grid"}>
+          <button className='bg-slate-600 text-white p-2'>Grid</button>
+        </Link>
       </div>
     </div>
   );

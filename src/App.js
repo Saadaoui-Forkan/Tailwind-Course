@@ -12,6 +12,7 @@ import Interactivity from './components/interactivity'
 import Breackpoints from './components/breackpoints'
 import Columns from './components/columns'
 import Flexbox from './components/flex'
+import Grid from './components/grid'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path='/breackpoints' element={<Breackpoints/>}/>
         <Route path='/columns' element={<Columns/>}/>
         <Route path='/flexbox' element={<Flexbox/>}/>
+        <Route path='/grid' element={<Grid/>}/>
       </Routes>
     </BrowserRouter>
   );
