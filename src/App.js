@@ -13,6 +13,7 @@ import Breackpoints from './components/breackpoints'
 import Columns from './components/columns'
 import Flexbox from './components/flex'
 import Grid from './components/grid'
+import TransitionTransform from './components/transition & transform'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path='/columns' element={<Columns/>}/>
         <Route path='/flexbox' element={<Flexbox/>}/>
         <Route path='/grid' element={<Grid/>}/>
+        <Route path='/transition-transform' element={<TransitionTransform/>}/>
       </Routes>
     </BrowserRouter>
   );

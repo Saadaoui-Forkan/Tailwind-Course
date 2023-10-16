@@ -45,6 +45,9 @@ function Home() {
         <Link to={"/grid"}>
           <button className='bg-slate-600 text-white p-2'>Grid</button>
         </Link>
+        <Link to={"/transition-transform"}>
+          <button className='bg-slate-600 text-white p-2'>Transition And Transform</button>
+        </Link>
       </div>
     </div>
   );
