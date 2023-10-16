@@ -3,10 +3,6 @@ import './darkMode.css'
 
 function DarkMode() {
     const [dark, setDark] = useState(false)
-    // console.log(dark)
-    // const handleChange = (e) => {
-    //     setDark(!dark)
-    // }
   return (
     <div className={dark ? 'dark' : undefined}>
       {/*  By default, you can have your project use whatever mode your OS is using. You can use "dark:{className}". You can also set your config to use a className instead of using your OS mode */}
