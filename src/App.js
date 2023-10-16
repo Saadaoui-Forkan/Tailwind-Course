@@ -14,6 +14,7 @@ import Columns from './components/columns'
 import Flexbox from './components/flex'
 import Grid from './components/grid'
 import TransitionTransform from './components/transition & transform'
+import Animation from './components/animation'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path='/flexbox' element={<Flexbox/>}/>
         <Route path='/grid' element={<Grid/>}/>
         <Route path='/transition-transform' element={<TransitionTransform/>}/>
+        <Route path='/animation' element={<Animation/>}/>
       </Routes>
     </BrowserRouter>
   );
