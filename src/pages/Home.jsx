@@ -3,41 +3,44 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <>
-      <h1>Tailwind CSS Sandbox</h1>
-      <div className="links">
+    <div>
+      <h1 className='text-center m-2 font-serif text-base font-bold'>Tailwind CSS Sandbox</h1>
+      <div className="flex justify-center items-center container space-x-6 space-y-3 mx-auto flex-wrap">
         <Link to={"/colors"}>
-          <button>Colors</button>
+          <button className='bg-slate-600 text-white p-2'>Colors</button>
         </Link>
         <Link to={"/container-spacing"}>
-          <button>Container & Spacing</button>
+          <button className='bg-slate-600 text-white p-2'>Container & Spacing</button>
         </Link>
         <Link to={"/typography"}>
-          <button>Typography</button>
+          <button className='bg-slate-600 text-white p-2'>Typography</button>
         </Link>
         <Link to={"/sizing"}>
-          <button>Width & Height</button>
+          <button className='bg-slate-600 text-white p-2'>Width & Height</button>
         </Link>
         <Link to={"/position"}>
-          <button>Layout Position</button>
+          <button className='bg-slate-600 text-white p-2'>Layout Position</button>
         </Link>
         <Link to={"/bg-shadows"}>
-          <button>Background & Shadows</button>
+          <button className='bg-slate-600 text-white p-2'>Background & Shadows</button>
         </Link>
         <Link to={"/borders"}>
-          <button>Border & Border Radius</button>
+          <button className='bg-slate-600 text-white p-2'>Border & Border Radius</button>
         </Link>
         <Link to={"/filters"}>
-          <button>Filters</button>
+          <button className='bg-slate-600 text-white p-2'>Filters</button>
         </Link>
         <Link to={"/interactivity"}>
-          <button>Interactivity</button>
+          <button className='bg-slate-600 text-white p-2'>Interactivity</button>
         </Link>
         <Link to={"/breackpoints"}>
-          <button>Breackpoints</button>
+          <button className='bg-slate-600 text-white p-2'>Breackpoints</button>
+        </Link>
+        <Link to={"/columns"}>
+          <button className='bg-slate-600 text-white p-2'>Columns</button>
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 
