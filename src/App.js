@@ -11,6 +11,7 @@ import Filters from './components/filters'
 import Interactivity from './components/interactivity'
 import Breackpoints from './components/breackpoints'
 import Columns from './components/columns'
+import Flexbox from './components/flex'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='/interactivity' element={<Interactivity/>}/>
         <Route path='/breackpoints' element={<Breackpoints/>}/>
         <Route path='/columns' element={<Columns/>}/>
+        <Route path='/flexbox' element={<Flexbox/>}/>
       </Routes>
     </BrowserRouter>
   );

@@ -39,6 +39,9 @@ function Home() {
         <Link to={"/columns"}>
           <button className='bg-slate-600 text-white p-2'>Columns</button>
         </Link>
+        <Link to={"/flexbox"}>
+          <button className='bg-slate-600 text-white p-2'>Flexbox</button>
+        </Link>
       </div>
     </div>
   );
