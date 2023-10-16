@@ -15,6 +15,7 @@ import Flexbox from './components/flex'
 import Grid from './components/grid'
 import TransitionTransform from './components/transition & transform'
 import Animation from './components/animation'
+import DarkMode from './components/dark mode/DarkMode'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path='/grid' element={<Grid/>}/>
         <Route path='/transition-transform' element={<TransitionTransform/>}/>
         <Route path='/animation' element={<Animation/>}/>
+        <Route path='/dark-mode' element={<DarkMode/>}/>
       </Routes>
     </BrowserRouter>
   );

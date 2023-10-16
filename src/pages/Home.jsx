@@ -51,6 +51,9 @@ function Home() {
         <Link to={"/animation"}>
           <button className='bg-slate-600 text-white p-2'>Animation</button>
         </Link>
+        <Link to={"/dark-mode"}>
+          <button className='bg-slate-600 text-white p-2'>Dark Mode</button>
+        </Link>
       </div>
     </div>
   );
